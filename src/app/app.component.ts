@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pipes';
+  title:string;
+  isActive = false;
+  constructor(){
+
+  }
+  oninit(){
+
+  }
+  onClick(){
+    this.isActive = !this.isActive;
+  }
 }
