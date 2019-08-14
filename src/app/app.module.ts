@@ -11,7 +11,9 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { CoursesComponent } from './courses/courses.component';
 // import { ReactiveComponent } from './reactive/reactive.component';
 import { SignupComponent } from './signup/signup.component';
-import { ZippyComponent } from './zippy/zippy.component';
+// import { ZippyComponent } from './zippy/zippy.component';
+import { NewcourseComponent } from './newcourse/newcourse.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ZippyComponent } from './zippy/zippy.component';
     CoursesComponent,
     // ReactiveComponent,
     SignupComponent,
-    ZippyComponent
+    // ZippyComponent,
+    NewcourseComponent,
+    ChangePasswordComponent
   ],
   imports: [
     BrowserModule,
